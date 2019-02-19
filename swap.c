@@ -6,4 +6,9 @@ void main()
     b=23;
 
     print("%d%d",a,b);
+
+    c=a;
+    a=b;
+    b=c;
+print("%d%d",a,b);
 }
