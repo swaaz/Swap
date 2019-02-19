@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-void swap()
+void swap(int a,int b)
 {
-	// swap it here
+	int temp;
+    temp=a;
+    a=b;
+    b=temp;
+print("After Swapping\n Value of a=%d and b=%d",a,b);
 }
 void main()
 {
-    int a,b,c;
+    int a,b;
     a=10;
-    b=23;
-
-    print("%d%d",a,b);
-
-    c=a;
-    a=b;
-    b=c;
-print("%d%d",a,b);
+    b=20;
+    print("Before Swapping\n Value of a=%d and b=%d",a,b);
+    swap(a,b);
 }
