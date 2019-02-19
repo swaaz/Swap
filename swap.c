@@ -1,4 +1,9 @@
 #include <stdio.h>
+
+void swap()
+{
+	// swap it here
+}
 void main()
 {
     int a,b,c;
